@@ -1,0 +1,77 @@
+Write a complete C program that reads an undirected graph from standard input.
+
+Input format:
+
+The first line contains the number of vertices n and the DFS root vertex r.
+Each following line contains an edge between two vertices, until EOF.
+
+Example input:
+
+8 a
+a b
+a c
+a h
+b c
+b d
+b f
+b g
+c g
+d f
+e f
+
+Requirements:
+
+Store the graph using adjacency lists.
+Keep all adjacency lists sorted alphabetically.
+Perform a Depth-First Search (DFS) starting from root r.
+For each vertex, compute:
+Parent in the DFS tree
+Height (DFS depth)
+Whether it is an articulation point
+Compute all Biconnected Components of the graph.
+Print the results in the following format:
+Graph:
+[a]: b, c, h
+[b]: a, c, d, f, g
+[c]: a, b, g
+[d]: b, f
+[e]: f
+[f]: b, d, e
+[g]: b, c
+[h]: a
+
+Parent
+[a]: a
+[b]: a
+[c]: b
+[d]: b
+[e]: f
+[f]: d
+[g]: c
+[h]: a
+
+Height
+[a]: 0
+[b]: 1
+[c]: 2
+[d]: 2
+[e]: 4
+[f]: 3
+[g]: 3
+[h]: 1
+
+Articulation Points
+[a]: True
+[b]: True
+[c]: False
+[d]: False
+[e]: False
+[f]: True
+[g]: False
+[h]: False
+
+Biconnected Components
+{e, f}
+{f, d, b}
+{h, a}
+{g, c, b, a}

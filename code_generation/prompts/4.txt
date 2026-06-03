@@ -1,0 +1,1 @@
+Implement a binary search function to find the position of an element in a sorted array in C.

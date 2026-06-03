@@ -1,0 +1,1 @@
+Write a recursive function to calculate the factorial of an integer n in C.
