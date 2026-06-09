@@ -1,0 +1,1 @@
+Implement a function that converts a decimal number into its binary representation in C.

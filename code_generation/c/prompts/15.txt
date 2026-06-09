@@ -1,0 +1,1 @@
+Create a function that given a list of numbers, calculates the arithmetic mean and the median of the values in C.

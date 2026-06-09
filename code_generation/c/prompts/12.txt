@@ -1,0 +1,1 @@
+Create a function to find both the maximum and minimum elements in an integer array in C.

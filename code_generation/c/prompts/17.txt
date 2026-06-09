@@ -1,0 +1,1 @@
+Create a function that returns the second largest unique element in an integer array. If it does not exist, return -1 in C.

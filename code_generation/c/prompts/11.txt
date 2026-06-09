@@ -1,0 +1,1 @@
+Write a function that takes an integer and returns the sum of all its digits in C.
