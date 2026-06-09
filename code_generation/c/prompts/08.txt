@@ -1,0 +1,1 @@
+Write a function to determine if a positive integer is a prime number in C.
