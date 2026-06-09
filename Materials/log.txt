@@ -8,13 +8,16 @@ Scope deffinition revised with professor
 Project plan drafting and discussion with professor
 
 22/04/2026 João Lino
-Project Plan V1.0
+Project Plan
 
 14/05/2026 João Lino
-Dataset definition for code generation and Project Plan V2.0
+Dataset definition for code generation
 
 31/05/2026 Miguel Brazão
 Analised the Project Statement and made a to-do list with task division between the group members
+
+31/05/2026 All members
+Decided to also do test case generation (initial planning only defined the group would implement code review and code generation)
 
 01/06/2026 Lucas Carneiro
 Git repository setup and creation and initial commit
